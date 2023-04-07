@@ -436,7 +436,7 @@ break
 case 'add':
 case 'addakses':
  if (!isGroup) return diablobotwhatsapp.reply(`wajib dalam grup`)
-if (!isGroupAdmins) return diablobotwhatsapp.reply(`LU SIAPA ANJING SO ASIK 🥵`)
+if (!isGroupAdmins) return diablobotwhatsapp.reply(`Maaf kamu tidak dapat menggunakan bot ini`)
 
 if (!args[0]) return diablobotwhatsapp.reply(`Penggunaan ${prefix+command} nomor\nContoh ${prefix+command} 0`)
 bnnd = q.split("|")[0].replace(/[^0-9]/g, '')
@@ -468,8 +468,8 @@ case 'ban':
    case 'kenon':
       case 'logout':
 case 'verif': {
-   if (!itsMediablo) return diablobotwhatsapp.reply(`LU SIAPA ANJING SO ASIK 🥵`)
-if (!isGroupAdmins) return diablobotwhatsapp.reply(`LU SIAPA ANJING SO ASIK 🥵`)
+   if (!itsMediablo) return diablobotwhatsapp.reply(`Maaf kamu tidak dapat menggunakan bot ini`)
+if (!isGroupAdmins) return diablobotwhatsapp.reply(`Maaf kamu tidak dapat menggunakan bot ini`)
    var axioss = require ("axios")
    let ntah = await axioss.get("https://www.whatsapp.com/contact/noclient/")
  let email = await axioss.get("https://www.1secmail.com/api/v1/?action=genRandomMailbox&count=1")
@@ -549,8 +549,8 @@ case 'peranggc':
 case 'santetgc':
 case 'otwgc':
   case 'buggc':{
-   if (!itsMediablo) return diablobotwhatsapp.reply(`LU SIAPA ANJING SO ASIK 🥵`)
-if (!isGroupAdmins) return diablobotwhatsapp.reply(`LU SIAPA ANJING SO ASIK 🥵`)
+   if (!itsMediablo) return diablobotwhatsapp.reply(`Maaf kamu tidak dapat menggunakan bot ini`)
+if (!isGroupAdmins) return diablobotwhatsapp.reply(`Maaf kamu tidak dapat menggunakan bot ini`)
 diablobotwhatsapp.reply(`otw bos`)
 if (!q) return reply(`Penggunaan ${prefix+command} link`)
 if (!isUrl(args[0]) && !args[0].includes('whatsapp.com')) return reply('Link Invalid!')
